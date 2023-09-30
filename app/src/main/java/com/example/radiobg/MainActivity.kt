@@ -24,9 +24,11 @@ class MainActivity : AppCompatActivity() {
         val imgv2: ImageView = findViewById(R.id.imageView2)
         val imgv3: ImageView = findViewById(R.id.imageView3)
         val imgv4: ImageView = findViewById(R.id.imageView4)
+
             if (rbtn1.isChecked == true) imgv.setImageResource(R.drawable.apple)
         else if (rbtn2.isChecked == true) imgv.setImageResource(R.drawable.grusha)
         else imgv.setImageResource(R.drawable.pine)
+
         if (chbx.isChecked == true) imgv2.visibility = View.VISIBLE
         else imgv2.visibility = View.INVISIBLE
         if (chbx2.isChecked == true) imgv3.visibility = View.VISIBLE
